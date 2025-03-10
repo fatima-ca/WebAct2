@@ -58,7 +58,7 @@ export default function Userinfobox({ name, last, email, picture, birthday, phon
   return (
     <main className="">
       <div className="flex flex-col justify-center items-center gap-4 relative w-170 h-96 bg-gray-300 rounded-xl shadow-lg p-4">
-        <img src={picture} alt="User" className="rounded-full w-25 h-25 mb-2" width={70}
+        <Image src={picture} alt="User" className="rounded-full w-25 h-25 mb-2" width={70}
       height={70}/>
 
         <h1 className="text-sm text-gray-700">{getDesc()}</h1>
