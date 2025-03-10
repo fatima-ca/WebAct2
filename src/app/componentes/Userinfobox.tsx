@@ -6,14 +6,13 @@ interface UserInfoProps {
   email: string;
   picture: string;
   birthday: string;
-  address: string;
   phone: string;
   stNum:string;
   stName:string;
   password: string;
 }
 
-export default function Userinfobox({ name, last, email, picture, birthday, address, phone, stNum,stName,password }: UserInfoProps) {
+export default function Userinfobox({ name, last, email, picture, birthday, phone, stNum,stName,password }: UserInfoProps) {
   
   const [data, setData] = useState("name");
 
